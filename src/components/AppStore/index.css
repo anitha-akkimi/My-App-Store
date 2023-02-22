@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 15px;
+  background-image: linear-gradient(to bottom, white, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-style {
+  border: 0px;
+  height: 40px;
+  background-color: transparent;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.search-container {
+  border: 1px solid gray;
+  height: 40px;
+  width: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.tabs-section {
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.apps-container {
+  width: 60%;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 599px) {
+  .tabs-section {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+}

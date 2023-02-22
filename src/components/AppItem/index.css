@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.each-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 8px;
+  font-family: Bree Serif;
+  text-align: center;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.image-style {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
